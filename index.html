@@ -1,0 +1,2343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Craftex - Find your Projects</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/hero-5.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;1900;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+ <!--<div class="overlay" data-overlay></div>-->
+
+  <!--
+    - MODAL-->
+  
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/Newsletter.png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe the <b>Craftex</b> to get latest products and discount update.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/covid-patient-healthcare-biomedical-smpg.jpg" alt="8 Leg Spider Robot Using Theo Jansen" width="110" height="190">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+        8 Leg Spider Robot Using Theo Jansen
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M"> 1 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/nevon-solar-seawater-desalinator-sm.jpg" alt="Solar Seawater Desalinator" width="110" height="190">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+        Solar Seawater Desalinator
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M"> 5 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>-->
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+            This Week Order Over -&#x20b9;500
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="eur">INR &#x20b9;</option>
+            <option value="usd">USD &dollar;</option>
+           
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-ES">Espa&ntilde;ol</option>
+            
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="index.html" class="header-logo">
+          <img src="./assets/images/logo/hero-5.png" alt="Craftex's logo" width="160" height="82">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <a href="Login.html"><ion-icon name="person-outline"></ion-icon></a>
+          </button>
+
+          <button class="action-btn">
+           <a href="#"><ion-icon name="heart-outline"></ion-icon></a> 
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <a href="cart.html"><ion-icon name="bag-handle-outline"></ion-icon></a>
+            <span class="count">2</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Project Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="electronic.html">Electronics Engineering Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">IOT Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Robotics Projects and DIY Drones</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">PIC Microcontroller Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Microcontrollers & Microcontroller Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Raspberry Pi Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Arduino Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">RF & RFID Based Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Digital Electronics Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Electronics and Communication Engineering </a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/logo/electronics-projects-banner.jpg" alt="electronics-projects-banner" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="software.html">Software Project</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Angular Js React Js Vue Js & Node Js Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Web Based Project Ideas & Topics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Android Projects & App Ideas</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">iOS Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Dot net Based Projects on Asp.net & c#</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Php Projects </a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Python Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">iOS Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Artificial Intelligence Projects</a>
+                </li>
+
+
+                
+                
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/software/software-projects-banner-blck.jpg" alt="software-projects-banner-blck" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="mech.html">Mechanical Engineering Projects </a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Industrial Engineering Projects </a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mechatronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Power Generation Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Solidworks Projects & Design Service</a>
+                </li>
+
+
+                
+
+                <li class="panel-list-item">
+                  <a href="#">FEA Composite Material Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    Mechanical Engineering Major Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    Ansys Projects & Solutions</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    Mechanical Engineering Design
+                    <br> Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/logo/mechanical-projects-banner.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Biomedical Engineering & Biomedical Projects</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">8 Leg Spider Robot Using Theo Jansen</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Fog Handwash Machine to Save Water</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">IOT Syringe Infusion Pump</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">IOT IV Pole with Bag Refill Notification</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">DIY Ventilator with BPM and Blood Oxygen Sensor</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Silver ION Sanitization Tunnel</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">IOT ECG Heart Monitor System</a>
+                </li>
+                 <li class="panel-list-item">
+                  <a href="#">GSM Patient Health Monitoring</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/logo/15.png" alt="mouse collection" width="250" height="150">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Instrumentation </a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">PLC Projects</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">PLC Automation & Programming Solutions</a>
+              </li>
+              
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Project Ideas</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Electronics Engineering Projects</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Android Projects & App Ideas</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Electronics and Communication Project Ideas</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Software Project Ideas</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Electrical Project Ideas</a>
+              </li>
+
+              
+
+            </ul>
+          </li>
+
+         
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Contact Us</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="contact2.html">Customer Support</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Submit Requirements</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="Track order.html">Track Order</a>
+              </li>
+            </ul>
+          </li>
+
+         
+
+          <li class="menu-category">
+            <a href="admin.html" class="menu-title">Partner with Us</a>
+          </li>
+
+          
+          
+        
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">PROJECT CATEGORIES</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">PROJECT IDEAS</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">CONTACT / CAREERS</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="partner.html" class="submenu-title">BECOME A PARTNER</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Women's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dress & Frock</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Makeup Kit</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Jewelry</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Couple Rings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bracelets</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Perfume</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Clothes Perfume</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deodorant</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Flower Fragrance</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Air Freshener</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        
+       
+      </ul>
+
+     <!-- <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Fren&ccedil;h</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">EUR &euro;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>-->
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./assets/images/logo/banner.png" alt="" class="banner-img">
+
+            
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - CATEGORY
+    
+
+    <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+          
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">
+                  Electronics Projects</h3>
+
+                <p class="category-item-amount"></p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+        
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">IT Projects</h3>
+
+                <p class="category-item-amount"></p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+          
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Industrial Engineering Projects </h3>
+
+                <p class="category-item-amount"></p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Instrumentation Projects</h3>
+
+                <p class="category-item-amount"></p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Biomedical Projects</h3>
+
+                <p class="category-item-amount"></p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>-->
+
+          <!--<div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/jacket.svg" alt="jacket" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Jacket</h3>
+
+                <p class="category-item-amount">(16)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/watch.svg" alt="watch" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Watch</h3>
+
+                <p class="category-item-amount">(27)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/hat.svg" alt="hat & caps" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Hat & caps</h3>
+
+                <p class="category-item-amount">(39)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>-->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <a href="electronic.html"> <button type="submit" class="btn-newsletter">Electronics </button></a>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/logo/ras-pi-iot-doorbell-sm.jpg" alt="IOT Contactless Door Bell Ras Pi" width="190" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">IOT Contactless Door Bell Ras Pi</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">IOT Projects </a>
+
+                     
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/lidar-micro-drone-outer-sm.jpg" alt="LIDAR micro Drone" class="showcase-img" width="190">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">LIDAR micro Drone</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Robotics Projects</a>
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/military-spying-8051-nevon-robot.jpg" alt="Military Bomb Disposal Robot" class="showcase-img"
+                        width="190">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Military Bomb Disposal Robot</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Microcontroller | Pin Diagram & Projects</a>
+                  
+                   
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/footstep-rfid-charging-atmega.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
+                        width="190">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Footstep RFID Mobile Charging</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">AVR Microcontroller Atmega 328 | 328P</a>
+                  
+                    
+                    </div>
+                  
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/energy-meter-iot-page.jpg" alt="men yarn fleece full-zip jacket" class="showcase-img"
+                        width="190">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">IOT Energy Meter With Theft Detection</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Microcontrollers & Microcontroller Projects</a>
+                
+                     
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/nevon-anti-riot-drone-system.jpg" alt="360 Rotating Fire Protection System" class="showcase-img"
+                        width="190">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">360 Rotating Fire Protection System</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Microcontrollers & Microcontroller Projects</a>
+                
+                      
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/5-dof-arm-nevon-robo.jpg" alt="360 Rotating Fire Protection System" class="showcase-img"
+                        width="190">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">360 Rotating Fire Protection System</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Microcontrollers & Microcontroller Projects</a>
+                
+                   
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/nevon-solar-water-trash-collector.jpg" alt="Solar Water Trash Collector" class="showcase-img"
+                        width="190">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Solar Water Trash Collector</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Microcontrollers & Microcontroller Projects</a>
+                
+                   
+                
+                    </div>
+                
+                  </div>
+                
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+            
+              <a href="software.html"><button type="submit" class="btn-newsletter">Software</button></a>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/sales-crm-appsmpg.jpg" alt="Android Sales CRM App" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Android Sales CRM App</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Android Projects </a>
+            
+                    
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/covid-geofencing-app-smpg.jpg" alt="Android Geofencing App" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Android Geofencing App</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Android Projects</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/tour-recommender-android-app.jpg" alt="Space Shooter Combat Game Python" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Space Shooter Combat Game Python</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Android Projects</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/crypto-price-prediction-python-sm.jpg" alt="Python Projects" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Fake Logo Detection System Python</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Python Projects</a>
+            
+                     
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/ecommerce-visually-impaired-python-sm.jpg" alt="Ecommerce Website for the Blind Python
+                      " class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Ecommerce Website for the BlindPython
+                        </h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Python Projects</a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/fake-logo-detection-python-sm.jpg" alt="Fake Logo Detection System Python" class="showcase-img" width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Fake Logo Detection System Python</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Python Projects</a>
+            
+                     
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/android-step-counter-smpg.jpg" alt="Android Step Counter App" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Android Step Counter App</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Android Projects</a>
+            
+                     
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/retail-store-pos-app-smpg.jpg" alt="Android Step Counter App" class="showcase-img" width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Retail store App</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Android Projects</a>
+            
+                   
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+            <div class="product-showcase">
+            
+              <a href="mech.html"> <button type="submit" class="btn-newsletter">Mechanical</button></a>
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/nevon-solar-seawater-desalinator-sm.jpg" alt="Solar Seawater Desalinator" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Solar Seawater Desalinator</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Industrial Engineering Projects </a>
+            
+                  
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/auto-french-fries-making-machine-sm.jpg" alt="Dual Side potato Fires Cutter Machine" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Dual Side potato Fires Cutter Machine</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Industrial Engineering Projects </a>
+            
+                 
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/bottle-filling-capping-industrial-nevon.jpg" alt="Auto Bottle Filling and Capping System" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Auto Bottle Filling System</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Industrial Engineering Projects </a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/industrial-color-sorting-nevon.jpg" alt="PLC Color Sorting Machine" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">PLC Color Sorting Machine</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Industrial Engineering Projects </a>
+            
+                      
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/360-fire-protection-system-smpg.jpg" alt="360 Rotating Fire Protection System" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">360 Rotating Fire Protection System</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Mechatronics </a>
+            
+                     
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/cam-shaft-ventilator-smpg.jpg" alt="Cam Shaft Mechanism Ventilator" class="showcase-img" width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Cam Shaft Mechanism Ventilator</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Mechatronics </a>
+            
+                    
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/goods-carrier-stair-climber-smpg.jpg" alt="Goods Carrier Stair Climber Robot" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Goods Carrier Stair Climber Robot</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Mechatronics </a>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/soccer-ball-launcher-smpg.jpg"alt="Soccer Ball Launcher Machine" class="showcase-img"
+                        width="190">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Soccer Ball Launcher Machine</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Mechatronics</a>
+            
+                     
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT FEATURED-->
+          
+
+          <div class="product-featured">
+
+            <h2 class="title">Deal of the day</h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/images/theo-jansen-spider-robot-web-main.jpg" alt="8 Leg Spider Robot using RF Control" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+
+                    <a href="#">
+                      <h3 class="showcase-title">
+                        8 Leg Spider Robot using RF Control</h3>
+                    </a>
+                    <p class="showcase-desc">
+                      The spider robot uses jansen linkages to convert the rotational motion of a DC motor into a step motion that mimics animals. 2 x DC motors are mounted on 2 opposite sides of the robotic chassis or main frame, and 3 gears are used to drive a combination of 8 legs. The spider controller is made using a microcontroller based circuitry and uses 4 x Push buttons to send a direction command wirelessly.
+                    </p>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                  
+
+                    <div class="price-box">
+                      <p class="price">₹4000.00</p>
+
+                      <del>₹8000.00</del>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>5</b>
+                        </p>
+
+                        <p>
+                          available: <b>20</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                   <!----> <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+                      
+
+
+                      <div class="countdown">
+
+                        
+
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+                        
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase-container">
+              
+                <div class="showcase">
+              
+                  <div class="showcase-banner">
+                    <img src="./assets/images/ras-pi-survaillance-robot-smpg.jpg" alt="Raspberry Pi Based Surveillance Robot" class="showcase-img">
+                  </div>
+              
+                  <div class="showcase-content">
+              
+                    
+              
+                    <h3 class="showcase-title">
+                      <a href="#" class="showcase-title">Raspberry Pi Based Surveillance Robot</a>
+                    </h3>
+                   
+              
+                    <p class="showcase-desc">
+                      This project aims to provide surveillance in highly sensitive areas, such as border areas, terrorist hotspots, and military areas, using a Raspberry Pi and a 360-degree night vision camera.
+                    </p>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+              
+                    <div class="price-box">
+                      <p class="price">₹1990.00</p>
+                      <del>₹2000.00</del>
+                    </div>
+              
+                    <button class="add-cart-btn">add to cart</button>
+              
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p> already sold: <b>15</b> </p>
+              
+                        <p> available: <b>40</b> </p>
+                      </div>
+              
+                      <div class="showcase-status-bar"></div>
+                    </div>
+              
+                    <div class="countdown-box">
+              
+                      <p class="countdown-desc">Hurry Up! Offer ends in:</p>
+              
+                      <div class="countdown">
+                        
+              
+                        <div class="countdown-content">
+                          <p class="display-number">20</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">55</p>
+                          <p class="display-text">Min</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">08</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+          <div class="product-main">
+
+            <h2 class="title">New Products</h2>
+
+            <div class="product-grid">
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="./assets/images/hand-motion-robotic-vehicle-8051-nevon.jpg" alt="Hand Motion Controlled Robotic Vehicle" width="300" class="product-img default">
+                  <img src="./assets/images/hand-motion-robotic-vehicle-8051-nevon.jpg" alt="Hand Motion Controlled Robotic Vehicle" width="300" class="product-img hover">
+
+                 
+
+                  <div class="showcase-actions">
+
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category">Microcontroller | Pin Diagram & Projects</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">Hand Motion Controlled Robotic Vehicle</h3>
+                  </a>
+
+                  
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/arduino-3d-scanner-smpg.jpg" alt="Arduino Powered 3D Scanner" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/arduino-3d-scanner-smpg.jpg" alt="Arduino Powered 3D Scanner" class="product-img hover"
+                    width="300">
+              
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Arduino Projects</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Arduino Powered 3D Scanner</a>
+                  </h3>
+              
+                  
+              
+                  
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/delivery-robot-smpg.jpg" alt="Theft Proof Ecommerce Delivery Robot" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/delivery-robot-smpg.jpg" alt="Theft Proof Ecommerce Delivery Robot" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Raspberry Pi</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Theft Proof Ecommerce Delivery Robot</a>
+                  </h3>
+              
+                  
+              
+                 
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/ras-pi-survaillance-robot-smpg.jpg" alt="Raspberry Pi Based Surveillance Robot" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/ras-pi-survaillance-robot-smpg.jpg" alt="Raspberry Pi Based Surveillance Robot" class="product-img hover"
+                    width="300">
+              
+                  
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Raspberry Pi </a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Raspberry Pi Based Surveillance Robot</a>
+                  </h3>
+              
+                  
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/auto-iv-pole-biomedical-smpg (1).jpg" alt="IOT IV Pole with Bag Refill Notification" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/auto-iv-pole-biomedical-smpg (1).jpg" alt="IOT IV Pole with Bag Refill Notification" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Biomedical</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">IOT IV Pole with Bag Refill Notification</a>
+                  </h3>
+              
+                 
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/fog-handwash-machine-smpg.jpg" alt="Pocket Watch Leather Pouch" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/fog-handwash-machine-smpg.jpg" alt="Pocket Watch Leather Pouch" class="product-img hover"
+                    width="300">
+              
+                  
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Biomedical</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Fog Handwash Machine to Save Water</a>
+                  </h3>
+              
+                
+                  
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/android-spy-camera-smpg (1).jpg" alt="Android Spy Camera App" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/android-spy-camera-smpg (1).jpg" alt="Android Spy Camera App" class="product-img hover" width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Android Projects</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Android Spy Camera App</a>
+                  </h3>
+              
+                  
+              
+                 
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/space-fighter-game-python-sm.jpg" alt="Space Shooter Combat Game Python" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/space-fighter-game-python-sm.jpg" alt="Space Shooter Combat Game Python" class="product-img hover"
+                    width="300">
+              
+                 
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Python Projects</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Space Shooter Combat Game Python</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    
+                  </div>
+              
+                 
+              
+                </div>
+              
+              </div>
+
+            
+              
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+</main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container"></div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="electronic.html" class="footer-nav-link">Electronics Projects</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="software.html" class="footer-nav-link">Software Project</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Industrial Engineering Projects </a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Biomedical</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Instrumentation Projects</a>
+          </li>
+
+        </ul>
+
+  
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New Projects</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="admin.html" class="footer-nav-link">Become a partner</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="contact2.html" class="footer-nav-link">Contact us</a>
+          </li>
+        
+         
+          <li class="footer-nav-item">
+            <a href="feedback.html" class="footer-nav-link">Service Feedback</a>
+          </li>
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+             New-Forest Park, Bhubaneswar
+             Odisha-751002
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">+91- 9178461793</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:Craftexhelp@gmail.com" class="footer-nav-link">Craftexhelp@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">Craftex</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
